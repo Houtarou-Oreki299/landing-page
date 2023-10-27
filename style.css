@@ -8,6 +8,10 @@ a{
     color: #E5E7EB;
 }
 
+header{
+    background-color: #1F2937;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     /* width: 100%; */
     text-decoration: none;
     padding: 20px 100px 20px 200px;
@@ -42,15 +46,73 @@ a{
 
 .hero{
     display: flex;
+    margin: 70px 0px;
+    /* background-color: blue; */
+    /* background-color: #1F2937; */
+    /* height: 400px;
+    width: auto; */
     align-items: center;
     justify-content: center;
-    text-align: left    ;
+    justify-content: space-evenly
 }
 
-.left-hero{
+.hero h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-buttion{
+    padding: 4px 20px;
+    margin-top: 15px;
+    border-radius: 9px;
+    background-color: #3882F6;
+    border-color: transparent;
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+
+.mid-content{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
 
+.mid-content h1{
+    margin: 50px 0px;
+}
+
+.mid-content h1{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.ani-list{
+    display: flex;
+    gap: 150px;
+}
+
+.ani-list img{
+    border: 3px solid #3882F6;
+    border-radius: 6px;
+}
+
+.img-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ani-list h4{
+    color: #1F2937;
+    font-weight: 100;
+}
